@@ -23,4 +23,5 @@ fn rocket() -> _ {
         .mount("/", routes![index])
         .mount("/about", routes![about])
         .mount("/contact", routes![contact])
+        .mount("/posts", routes![posts])
 }
